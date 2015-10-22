@@ -1,23 +1,22 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: Hacker Notes
+description: Be Curious Stay Determined
+meta_description: "Programming Blog"
 
 aboutPage: true
-
 markdown: redcarpet
 highlighter: pygments
 
 paginate: 20
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
-google_analytics: 'UA-XXXXXXXX-X'
-disqus: false
-disqus_shortname: 'your-disqus-shortname'
+domain_name: 'http://jefrivanegas.com'
+google_analytics: 'UA-26700148-2'
+disqus: true
+disqus_shortname: 'jefrivanegas'
 
 # Details for the RSS feed generator
 url:            'http://your-blog-url.example.com'
-author:         'Your Name'
-authorTwitter:  'YourTwitterUsername'
+author:         'Jefri Vanegas'
+authorTwitter:  'vjefri'
 
 permalink:       /:year/:title/
 
