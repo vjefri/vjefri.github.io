@@ -1,6 +1,6 @@
 ---
-title: About
-permalink: about/
+title: Projects
+permalink: projects/
 profile: true
 ---
 
