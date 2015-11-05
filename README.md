@@ -1,1 +1,1 @@
-Just another blog..
+Blog about things I find interesting. 
