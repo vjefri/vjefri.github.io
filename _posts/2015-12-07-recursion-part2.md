@@ -12,7 +12,7 @@ A tree can have many branches. Branches are similar in structure to other branch
 
 Lets say this is a branch: 
 
-```
+{% highlight javascript %}
 {
     right: null,
     left: null
@@ -27,7 +27,7 @@ Lets say this is a branch:
   },
   left: null
 }
-```
+{% endhighlight %}
 
 When you repeat this process, sooner or later you will have a tree structure. Not all trees are the same. Some have more children then others. Others, allow a max of two children.
 ![](http://nathanielclaiborne.com/wp-content/uploads/2011/04/Inception-Top-Wallpaper-Sohan-Surag.jpg)
@@ -37,7 +37,7 @@ This can become a complicated structure to keep in your mind. In fact, unless yo
 ## Base Cases
 Base cases are one of the most important parts of a recursive solution. Base cases live within the function that you will invoke. They usually start with if statements, but not always. 
 
-```
+{% highlight javascript %}
 var recursion = function() {
     if(basecase) {
     return;
@@ -48,13 +48,13 @@ var recursion = function() {
         recursion();
     }
 };
-```
+{% endhighlight %}
 Base cases serve to end the running function. But remember that in a recursive solution, there may be many functions waiting to be returned. Thus, the base case has to work for all functions on the stack. If it doesn't work for all, then your function will never return, until it overflows the stack. All functions must return for recursion to work. 
 
 ## Techniques
 **Use a for loop to traverse the tree from left to right. 
 **
-```
+{% highlight javascript %}
 var recursion = function() {
     if(basecase) {
     return;
@@ -67,13 +67,13 @@ var recursion = function() {
         }
     }
 };
-```
+{% endhighlight %}
 That will traverse down the tree, until it returns and we are back in the loop. Remember that each recusive call has its own loop. Use this technique if you want to move across the children at each level on the tree. 
 ![](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRrCJvw4eFxX9hq208r9owmZR70na-EoQGv9YGmTX2qNOuT6_2u)
 
 **Keeping track of values.**
 
-```
+{% highlight javascript %}
 var mainFunc = function() {
     var countTracker;
     var arrayTracker;
@@ -88,7 +88,7 @@ var mainFunc = function() {
         }
     };
 }
-```
+{% endhighlight %}
 Because of the nature of recursion, anything within the recursive function will reset. It will reset to the way it was during the first invocation. Only the arguments that are passed in change at each level. A function within a function is a great way to keep track of values while having the benefits of recursion. The recursive function will be able to work on the variables outside its function at its deepest levels. 
 
 ![](https://s3-us-west-2.amazonaws.com/sfmomaopenspace/wp-content/uploads/2011/07/seashells2.jpg)
@@ -97,6 +97,8 @@ Because of the nature of recursion, anything within the recursive function will 
 
 After the recursive function has returned, you can do more work. We may be going up the levels, but we can still do work while this happens. That is the purpose of placing lines of code after the recursive call.  
 ```
+{% highlight javascript %}
+
 var mainFunc = function() {
     var varTracker;
     var arrayTracker;
@@ -114,5 +116,6 @@ var mainFunc = function() {
         }
     };
 }
+{% endhighlight %}
 ```
 Once that returns there is no coming back. Bye Bye!
