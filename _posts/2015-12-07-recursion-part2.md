@@ -52,8 +52,8 @@ var recursion = function() {
 Base cases serve to end the running function. But remember that in a recursive solution, there may be many functions waiting to be returned. Thus, the base case has to work for all functions on the stack. If it doesn't work for all, then your function will never return, until it overflows the stack. All functions must return for recursion to work. 
 
 ## Techniques
-**Use a for loop to traverse the tree from left to right. 
-**
+**Use a for loop to traverse the tree from left to right. **
+
 {% highlight javascript %}
 var recursion = function() {
     if(basecase) {
@@ -93,12 +93,11 @@ Because of the nature of recursion, anything within the recursive function will 
 
 ![](https://s3-us-west-2.amazonaws.com/sfmomaopenspace/wp-content/uploads/2011/07/seashells2.jpg)
 
-** After recursion has returned **
+**After recursion has returned**
 
 After the recursive function has returned, you can do more work. We may be going up the levels, but we can still do work while this happens. That is the purpose of placing lines of code after the recursive call.  
-```
-{% highlight javascript %}
 
+```
 var mainFunc = function() {
     var varTracker;
     var arrayTracker;
@@ -116,6 +115,6 @@ var mainFunc = function() {
         }
     };
 }
-{% endhighlight %}
 ```
+
 Once that returns there is no coming back. Bye Bye!
