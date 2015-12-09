@@ -3,7 +3,7 @@ description: Be Curious Stay Determined
 meta_description: "Programming Blog"
 
 aboutPage: true
-markdown: redcarpet2
+markdown: redcarpet
 highlighter: pygments
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
