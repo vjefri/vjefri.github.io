@@ -1,5 +1,3 @@
-# Deep Dive in a New Code Base
-
 During the last two days I learned how to navigate the uncharted waters of an unknown code base and framework. Love it or hate it but learning new material quickly is an important skill to have. I did this with none other than the backbone framework. The best way to learn a new framework is to build a small application from scratch, like a song player. But, if you are given a code base, the following points helped me grasp the material. 
 
 #### Documentation is your friend
