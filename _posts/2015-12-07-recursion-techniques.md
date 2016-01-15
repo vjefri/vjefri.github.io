@@ -1,4 +1,4 @@
-# Recursion and Trees
+# Recursion Techniques
 
 Recursion is an approach of solving problems that takes advantage of the call stack. When we invoke a function, a new stack of the actively running function is created on the call stack. A call stack is a data structure used by the program to store information about the active subroutine. The call stack keep tracks of where a subroutine should return control once it finishes executing. 
 
