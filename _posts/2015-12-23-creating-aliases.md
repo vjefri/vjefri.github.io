@@ -13,6 +13,7 @@ If I want to edit my aliases I just do `ealias` and I am ready to roll. I create
 In order to edit the alias file you will have to run the following command on the terminal `open .aliases`, which basically means that we want the hidden file .aliases to open. You can also run `la` to list all files including hidden files. 
 
 Here is a cool list of shortcuts that will appear when you run that command. 
+
 ```
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
@@ -43,10 +44,13 @@ fi
 # My Favorite
 alias stfu="osascript -e 'set volume output muted true'"
 alias pumpitup="osascript -e 'set volume 7'"
+
 ```
+
 You can save so much time for really long commands that you use often. 
 
 You can also have git commands. 
+
 ```
 # View abbreviated SHA, description, and history graph of the latest 20 commits
 l = log --pretty=oneline -n 20 --graph --abbrev-commit
@@ -78,6 +82,7 @@ c = clone --recursive
 # Commit all changes
 ca = !git add -A && git commit -av
 ```
+
 You can save time by doing this. I will caution to only use it once you understand the commands and have used them a few times. Because if someone asks you how add to upstream via git you will `prum` when really you want say `git remote add upstream`. 
 
 Happy hacking. 
