@@ -11,6 +11,7 @@ Working on the same code base with a team can be a difficult process. Imagine tr
 ![code conflict image](https://code.visualstudio.com/Content/images/versioncontrol_merge.png)
 
 Above is an image someone shared online. As you can see, the developer now has to decide between keeping the code between Head, or the one between master. 
+
 ```
 <<<<<<< HEAD
 your changes/code
@@ -18,6 +19,7 @@ your changes/code
 your team memebers changes/code
 >>>>>>> branch-a
 ```
+
 You have to decide what makes sense for the to be new code base. 
 
 ##### The Solution
