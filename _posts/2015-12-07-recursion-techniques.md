@@ -119,5 +119,3 @@ var mainFunc = function() {
     };
 }
 ```
-
-Once that returns there is no coming back. Bye Bye!
