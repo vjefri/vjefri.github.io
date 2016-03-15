@@ -5,7 +5,7 @@ First checkout [this](http://www.ryanatkinson.io/javascript-instantiation-patter
 
 Here I go into much more detail of what is happening in pseudoclassical super and sub classes. Please read the comments and try it out in your console. 
 
-{% highlight javascript linenos %}
+```
 var Planet = function(water, life) {
 	// the following is done behind the scenes:
 	// -------------------Start-------------------
@@ -78,4 +78,4 @@ Mars.prototype.constructor = Mars;
 
 // Reusing Prototypal Methods // 
 
-{% endhighlight %}
+```
