@@ -1,2 +1,0 @@
-## How Cool is Reduce
-
