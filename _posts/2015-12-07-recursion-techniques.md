@@ -2,11 +2,8 @@
 
 Recursion is an approach of solving problems that takes advantage of the call stack. When we invoke a function, a new stack of the actively running function is created on the call stack. A call stack is a data structure used by the program to store information about the active subroutine. The call stack keep tracks of where a subroutine should return control once it finishes executing. 
 
-![](http://i.stack.imgur.com/uiCRx.png)
-
 Certain problems have solution structures that lend themselves to be solved recursively. One of these structures are trees. 
 
-![](http://i.stack.imgur.com/jRFp8.png)
 
 A tree can have many branches. Branches are similar in structure to other branches. A tree in the end is composed of branches that might have different leaves. But at the end of the day the branches are the same.
 
