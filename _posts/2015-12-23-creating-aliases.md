@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Creating Aliases"
+date:   2015-12-23 21:28:15 +0700
+categories: [JavaScript]
+---
+
 ## Creating Aliases
 
 There are two approaches to getting awesome at the terminal. You can learn all the commands, or you can just make your own commands that are shortcuts to those commands. 

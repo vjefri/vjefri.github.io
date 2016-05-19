@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Setting Up ESlint"
+date:   2016-03-20 21:28:15 +0700
+categories: [JavaScript]
+---
+
 # Setting Up ESLINT
 ESLint is the pluggable linter utility for JavaScript and JSX. What separates ESLint from other linters like JSHint is its pluggable nature. You can find plugins on npm by searching `eslintplugin`. 
 

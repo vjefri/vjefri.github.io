@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Deply Free Static Website"
+date:   2015-12-21 21:28:15 +0700
+categories: [JavaScript]
+---
 ## Free Static Website Hosting
 ![divshow](http://i67.tinypic.com/500cua.png)
 
