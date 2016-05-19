@@ -30,7 +30,7 @@ As mentioned previously, one of ESLint’s original goals was to enable develope
 Then, in your configuration file, you indicate that `eslint-plugin-react` should be loaded by using the plugins array. 
 
 
-```javascript
+```json
 {
   "parserOptions": {
 	"ecmaFeatures": {
