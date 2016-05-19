@@ -58,7 +58,7 @@ You can save so much time for really long commands that you use often.
 
 You can also have git commands. 
 
-```js
+```bash
 # View abbreviated SHA, description, and history graph of the latest 20 commits
 l = log --pretty=oneline -n 20 --graph --abbrev-commit
 
