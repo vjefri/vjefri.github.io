@@ -1,41 +1,18 @@
-name: Hacker Notes
-description: Be Curious. Stay Determined.
-meta_description: "Programming Blog"
-
-aboutPage: true
-markdown: redcarpet
-highlighter: pygments
-
+title: Hacker Notes
+description: My Personal Stack Problems
+author: Agus Makmun
+github: https://github.com/vjefri
+about: Be Curious. Stay Determined.
+urls:
+    - text: About Me
+      url: /about/
+    - text: Github
+      url: https://github.com/vjefri
+    - text: XML Feed
+      url: /feed.xml
+url: "jefrivanegas.com"
+baseurl: ""
 paginate: 20
-baseurl: /
-domain_name: 'http://jefrivanegas.com'
-google_analytics: 'UA-26700148-2'
-disqus: true
-disqus_shortname: 'jefrivanegas'
-
-# Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
-author:         'Jefri Vanegas'
-authorTwitter:  'vjefri'
-
-permalink:       /:year/:title/
-
-defaults:
-    -
-        scope:
-            path: "" # empty string for all files
-            type: pages
-        values:
-            layout: default
-    -
-        scope:
-            path: "" # empty string for all files
-            type: posts
-        values:
-            layout: post
-    -
-        scope:
-            path: ""
-            type: drafts
-        values:
-            layout: post
+per_page: 20
+paginate_path: "/page:num/"
+markdown: kramdown
