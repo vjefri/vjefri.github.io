@@ -4,6 +4,4 @@ title: About
 permalink: /about/
 ---
 
-I am freelance developer. Currently doing more in backend, actually in Python and Django.
-
-email: agus[at]python.web.id
+Hello my name is Jefri and I love thinking about how software can improve how we interact with and experience the world. I believe we are only beginning to unlock the full potential of what is possible. 
