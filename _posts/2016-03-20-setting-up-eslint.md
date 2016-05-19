@@ -38,10 +38,10 @@ Then, in your configuration file, you indicate that `eslint-plugin-react` should
 	}
   },
   "env": {
-	"es6": true
+	  "es6": true
   },
   "plugins": [
-	"react" // you can just say “react”
+	  "react" 
   ]
 }
 ```

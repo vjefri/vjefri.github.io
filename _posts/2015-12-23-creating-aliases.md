@@ -21,7 +21,7 @@ In order to edit the alias file you will have to run the following command on th
 
 Here is a cool list of shortcuts that will appear when you run that command. 
 
-```json
+```bash
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
