@@ -21,7 +21,7 @@ In order to edit the alias file you will have to run the following command on th
 
 Here is a cool list of shortcuts that will appear when you run that command. 
 
-```
+```js
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
@@ -58,7 +58,7 @@ You can save so much time for really long commands that you use often.
 
 You can also have git commands. 
 
-```
+```js
 # View abbreviated SHA, description, and history graph of the latest 20 commits
 l = log --pretty=oneline -n 20 --graph --abbrev-commit
 

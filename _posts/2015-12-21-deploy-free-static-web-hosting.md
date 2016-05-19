@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Deply Free Static Website"
+title:  "Deploy Free Static Websites"
 date:   2015-12-21 21:28:15 +0700
 categories: [JavaScript]
 ---
