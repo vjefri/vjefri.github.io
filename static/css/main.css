@@ -18,6 +18,10 @@ hr {
     border-top: 1px solid #F7F1F1;
     border-bottom: 1px solid #fff;
 }
+
+img {
+    width: 730px
+}
 /*
 @media (min-width: 768px) {
   .container {
@@ -192,4 +196,8 @@ div.col-sm-3 img#about {
 }
 .PageNavigation .prev {
     text-align: left;
+}
+
+.post img {
+    width: 100%;
 }
