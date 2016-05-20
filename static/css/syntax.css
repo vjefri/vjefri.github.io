@@ -40,6 +40,7 @@
 .highlight .nv { color: #003333 } /* Name.highlight .Variable */
 .highlight .ow { color: #000000; } /* Operator.highlight .Word */
 .highlight .w { color: #bbbbbb } /* Text.highlight .Whitespace */
+.highlight .p { color: #777 } /* Brackets */
 .highlight .mf { color: #FF6600 } /* Literal.highlight .Number.highlight .Float */
 .highlight .mh { color: #FF6600 } /* Literal.highlight .Number.highlight .Hex */
 .highlight .mi { color: #FF6600 } /* Literal.highlight .Number.highlight .Integer */
