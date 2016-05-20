@@ -21,74 +21,7 @@ In order to edit the alias file you will have to run the following command on th
 
 Here is a cool list of shortcuts that will appear when you run that command. 
 
-```bash
-# Easier navigation: .., ..., ...., ....., ~ and -
-alias ..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
-alias .....="cd ../../../.."
-alias ~="cd ~" # `cd` is probably faster to type though
-alias -- -="cd -"
-
-# Shortcuts
-alias d="cd ~/Documents/Dropbox"
-alias dl="cd ~/Downloads"
-alias dt="cd ~/Desktop"
-alias fb="cd ~/floobits/HackReactor/"
-alias ealias="cd ~ && subl .aliases"
-alias egit="cd ~ && subl .gitconfig"
-alias g="git"
-alias h="history"
-alias j="jobs"
-
-# Detect which `ls` flavor is in use
-if ls --color > /dev/null 2>&1; then # GNU `ls`
-	colorflag="--color"
-else # OS X `ls`
-	colorflag="-G"
-fi
-
-# My Favorite
-alias stfu="osascript -e 'set volume output muted true'"
-alias pumpitup="osascript -e 'set volume 7'"
-
-```
-
-You can save so much time for really long commands that you use often. 
-
-You can also have git commands. 
-
-```bash
-# View abbreviated SHA, description, and history graph of the latest 20 commits
-l = log --pretty=oneline -n 20 --graph --abbrev-commit
-
-# View the current working tree status using the short format
-s = status -s
-
-# Show the diff between the latest commit and the current state
-d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
-
-# `git di $number` shows the diff between the state `$number` revisions ago and the current state
-di = !"d() { git diff --patch-with-stat HEAD~$1; }; git diff-index --quiet HEAD -- || clear; d"
-
-# Pull in remote changes for the current repository and all its submodules
-p = !"git pull; git submodule foreach git pull origin master"
-
-# Add origin
-radd = remote add origin // I added this one
-
-# Add upstream
-raddup = remote add upstream // and this one
-
-# Pull and rebase remote changes for the current repository from master upstream
-prum = pull --rebase upstream master
-
-# Clone a repository including all submodules
-c = clone --recursive
-
-# Commit all changes
-ca = !git add -A && git commit -av
-```
+{% gist 9b90a49a98900de41223256b513ef327 %}
 
 You can save time by doing this. I will caution to only use it once you understand the commands and have used them a few times. Because if someone asks you how add to upstream via git you will `prum` when really you want say `git remote add upstream`. 
 
