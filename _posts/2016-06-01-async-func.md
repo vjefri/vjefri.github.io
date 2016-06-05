@@ -1,22 +1,29 @@
+---
+layout: post
+title:  "Create Async Function"
+date:   2016-06-01 21:28:15 +0700
+categories: [JavaScript, Problems]
+---
+
 ```js
 // create asyncMap func with array and callback as args
   // create empty results list
   // create counter set to 0
-  
+
   // for func in array of functions
-    // invoke func with anonymous function as arg which takes item 
+    // invoke func with anonymous function as arg which takes item
     // asign item to results sub index
     // increment counter by 1
     // if last func in array
       // invoke callback with results as arg
-    
+
 ```
 
 ```js
 function asyncMap(array, callback) {
   var results = []
   var counter = 0
-  
+
   array.forEach(function(func, index) {
     func(function(item) { // tricky part is this anon func
       results[index] = item
@@ -63,4 +70,3 @@ asyncMap([
     console.log(results); // ['one', 'two']
   });
 ```
-
