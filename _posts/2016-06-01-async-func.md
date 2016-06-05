@@ -2,7 +2,7 @@
 layout: post
 title:  "Create Async Function"
 date:   2016-06-01 21:28:15 +0700
-categories: [JavaScript, Problems]
+categories: [Problems]
 ---
 
 ```js
