@@ -6,6 +6,8 @@ about: Be Curious. Stay Determined.
 urls:
     - text: About Me
       url: /about/
+    - text: Portfolio
+      url: /portfolio/
     - text: Github
       url: https://github.com/vjefri
     - text: XML Feed
