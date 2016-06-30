@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Getting Started with Nodal"
-date:   2015-12-23 21:28:15 +0700
+date:   2016-05-28 21:28:15 +0700
 categories: [JavaScript]
 ---
 
