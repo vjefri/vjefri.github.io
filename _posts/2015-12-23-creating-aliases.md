@@ -84,7 +84,6 @@ c = clone --recursive
 
 # Commit all changes
 ca = !git add -A && git commit -av
-
 ```
 
 You can save time by doing this. I will caution to only use it once you understand the commands and have used them a few times. Because if someone asks you how add to upstream via git you will `prum` when really you want say `git remote add upstream`. 

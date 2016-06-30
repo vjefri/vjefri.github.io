@@ -6,7 +6,6 @@ categories: [Problems]
 ---
 
 ```js
-
 // create asyncMap func with array and callback as args
   // create empty results list
   // create counter set to 0
@@ -65,5 +64,4 @@ asyncMap([
     // the second function had a shorter timeout.
     console.log(results); // ['one', 'two']
   });
-
-  ```
+```

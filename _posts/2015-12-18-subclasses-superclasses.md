@@ -13,7 +13,6 @@ First checkout [this](http://www.ryanatkinson.io/javascript-instantiation-patter
 Here I go into much more detail of what is happening in pseudoclassical super and sub classes. Please read the comments and try it out in your console. 
 
 ```js
-
 /*
   Pseudoclassical Instantiation Pattern
 */
@@ -58,5 +57,4 @@ Mars.prototype = Object.create(Planet.prototype);
 // doing so will also remove the constructor that points to the Mars function
 // we don't want that, so we have the constructor point to the Mars function again
 Mars.prototype.constructor = Mars;
-
 ```
