@@ -5,16 +5,19 @@ permalink: /portfolio/
 ---
 
 MedUp
-![MedUp](static/img/medup.jpg)
-Website: http://medup.herokuapp.com/
+![MedUp](./static/img/medup.jpg)
+Website: <http://medup.herokuapp.com/>
+
 Stack: Ionic, Hapi.js, MongoDB, AngularJS, Node.js/Express, Gulp, Protractor, Mocha, Chai, ES2015/ES5 
 
-PTC Portal 
-![PTC Portal](static/img/ptcportal.png)
-Website: http://ptcportal-demo.herokuapp.com/
+PTC Portal
+![PTC Portal](./static/img/ptcportal.png)
+Website: <http://ptcportal-demo.herokuapp.com/>
+
 Stack: React, Redux, MongoDB, Node.js/Express, Webpack, Mocha, Chai
 
 OnBelay
-![PTC Portal](static/img/onbelay.png)
-Website: https://on-belay-app.herokuapp.com/
+![PTC Portal](./static/img/onbelay.png)
+Website: <https://on-belay-app.herokuapp.com/>
+
 Stack: Angular, Bootstrap, Node.js/Express, MongoDB
